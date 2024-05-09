@@ -1,3 +1,37 @@
+/* reset */
+body, h1, ul, li, dl, dt, dd, p, a, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  list-style: none;
+}
+
+legend {
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+
+input,
+select {
+  outline: none;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
 /* COMMON */
 body {
   color: #333;
